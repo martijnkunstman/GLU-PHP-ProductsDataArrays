@@ -1,0 +1,15 @@
+.product {
+    width: 100px;
+    height: 200px;
+    border: 1px solid black;
+    display: inline-block;
+}
+.title {
+    font-size: 12px;
+    color: red;
+}
+
+.price {
+    font-size: 10px;
+    color: blue;
+}
