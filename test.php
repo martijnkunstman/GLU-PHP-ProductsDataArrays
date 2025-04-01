@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,13 +15,13 @@
     //$array_prijzen = ["$12.000", "$15.000", "$11.000", "$10.000", "$9.000", "$8.000", "$7.000"];
     //echo(count($array_titels)."<br>");
 
-   include("product_data.php");
+    include("product_data.php");
     //
     for ($a = 0; $a < count($array_producs); $a++) {
         //echo($a."<br>");
         echo ("<div class='product'><div class='title'>");
         echo ($array_producs[$a]["titel"] . "</div>");
-        echo("<div><a href='detail.php?id=".$array_producs[$a]["id"]."'>toon details</a></div>");
+        echo ("<div><a href='detail.php?id=" . $array_producs[$a]["id"] . "'>toon details</a></div>");
         echo ("</div>");
     }
     ?>
